@@ -1,4 +1,3 @@
-// src/app/layout.js
 import { Geist, Geist_Mono } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
@@ -13,10 +12,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Züri West",
-  description: "Band: Züri West Webseite",
-};
 
 export default function RootLayout({ children }) {
   return (

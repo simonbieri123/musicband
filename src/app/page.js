@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div
-     className="text-center">
+     className="text-left">
       Wilkommen auf der inoffizielen Webseite von Züri West!
       <Image 
         src="/band2.jpg"
